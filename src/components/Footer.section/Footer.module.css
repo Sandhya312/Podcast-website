@@ -1,0 +1,300 @@
+
+.footer{
+    height: 69vh;
+    position: relative;
+}
+
+.footerHead{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+    position: absolute;
+    width: 596px;
+    height: 241px;
+    left: 422px;
+    z-index: 1;
+    top: -4px;
+}
+
+.footerHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 596px;
+    height: 117px;
+    flex: none;
+    position: relative;
+    order: 0;
+    flex-grow: 0;
+    top: 73px;
+
+}
+
+.footerHeaderHeading{
+
+width: 497px;
+height: 39px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.footerHeaderPara{
+width: 596px;
+height: 54px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+
+background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.footerContentContainer{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 64px;
+width: 484px;
+height: 24px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+
+.footerText{
+    z-index: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 192px;
+    position: absolute;
+    width: 995px;
+    height: 74px;
+    left: 222px;
+    top: 418px;
+    border-top: 0.5px solid #FFFFFF;
+
+}
+
+.reserveText{
+    /* All Right Reserved @Copyright 2023 */
+
+width: 213px;
+height: 18px;
+
+/* text/12/regular */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.footerContent{
+    /* Frame 89 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 276px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.footerTermOfService{
+/* Terms of Service */
+
+width: 99px;
+height: 18px;
+
+/* text/12/regular */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.footerContentPrivacyPolicy{
+/* Privacy Policy */
+
+width: 82px;
+height: 18px;
+
+/* text/12/regular */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.footerContentProduct{
+
+/* Product */
+
+width: 47px;
+height: 18px;
+
+/* text/12/regular */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+
+
+.socialIcons{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 144px;
+height: 24px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.facebook{
+    /* mdi:facebook */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.youtube{
+    /* uil:youtube */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.insta{
+    /* basil:instagram-solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+
+
+.twitter{
+    /* uil:twitter */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}

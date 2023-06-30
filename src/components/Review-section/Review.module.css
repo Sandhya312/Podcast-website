@@ -1,0 +1,65 @@
+
+.reviewTitle{
+    /* Frame 82 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+/* position: absolute; */
+width: 462px;
+height: 108px;
+left: 0px;
+top: 0px;
+
+}
+
+.reviewTitleHeading{
+
+/* Review from customers */
+
+width: 462px;
+height: 48px;
+
+/* Heading/Heading 2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.reviewTitleContent{
+
+/* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry */
+
+width: 399px;
+height: 36px;
+
+/* text/12/regular */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}

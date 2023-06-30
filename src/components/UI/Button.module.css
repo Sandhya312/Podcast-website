@@ -1,15 +1,21 @@
 
 .button{
 
-    /* Button */
-    
-    height: 74.861px;
-    padding: 19px 56px 25.861px 55px;
+    width: 237px;
+    height: 60px;
     
     /* danger */
     background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
     border-radius: 10px;
     
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
     
     }
-    
+
+
+
+
