@@ -1,0 +1,25 @@
+
+
+.BgContainer{
+    background-color: red;
+    position: relative;
+    top:0;
+    z-index: -1;
+}
+
+.big-polygon{
+position: absolute;
+}
+
+.short-polygon{
+    position: absolute;
+    top: -3px;
+    left: 42rem;
+
+}
+
+.circle{
+    position: absolute;
+     top:0;
+     left: 0;
+}

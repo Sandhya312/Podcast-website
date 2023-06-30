@@ -1,0 +1,31 @@
+
+.PlanBackground{
+    /* Group 79 */
+position: absolute;
+width: 1477px;
+height: 568px;
+left: 1px;
+z-index: -1;
+
+}
+.podcast{
+    /* Podcast */
+
+    position: absolute;
+    width: 487px;
+   
+    height: 158px;
+    left: 855px;
+    top: 119px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 150px;
+line-height: 225px;
+
+/* Gray */
+color: #EEEEEE;
+
+
+}

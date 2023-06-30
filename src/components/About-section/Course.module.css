@@ -1,0 +1,40 @@
+.courseDiv {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 16px;
+
+  width: 288px;
+
+  height: 160px;
+  /* Secondary */
+  border: 0.5px solid #7a3199;
+  border-radius: 10px;
+}
+
+.courseTitle {
+  color: #000;
+
+  /* text/20/bold */
+  font-size: 1.25rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.courseContent {
+  display: flex;
+  width: 13rem;
+  flex-direction: column;
+  color: #000;
+
+  /* text/12/regular */
+  font-size: 0.75rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

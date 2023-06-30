@@ -1,0 +1,453 @@
+
+.planCardContainer{
+
+    width: 1153px;
+    left: 175px;
+    top: 131px;
+    position: relative;
+    height: 357px;
+    /* background: red; */
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.plancard {
+  /* Plan */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 27px;
+  gap: 24px;
+
+  /* position: absolute; */
+  width: 303px;
+  height: 357px;
+  left: 175px;
+  top: 296px;
+
+  background: #ffffff;
+  /* Ghost */
+  border: 0.5px solid #7a3199;
+  border-radius: 10px;
+}
+
+
+
+.planFrame1 {
+  /* Frame 1 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 249px;
+  height: 71px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.planFrame1Heading {
+  /* Basic Plan */
+
+  width: 81px;
+  height: 19px;
+
+  /* text/16/bold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.planFrame1content {
+  /* Lorem Ipsum is simply dummy text of the printing and typesetting */
+
+  width: 264px;
+  height: 36px;
+
+  /* text/12/regular */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.planFrame2 {
+  /* Frame 1 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 19px;
+
+  width: 144px;
+  height: 39px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.planFrame2Money {
+  /* $ 54 */
+
+  width: 71px;
+  height: 39px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  /* Ghost */
+  color: #7a3199;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.planFrame2PerMonth {
+  /* /month */
+
+  width: 54px;
+  height: 21px;
+
+  /* text/14/light */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  /* Ghost */
+  color: #7a3199;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.planFrame3 {
+  /* Frame 16 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  padding-left: 19px;
+  gap: 8px;
+  width: 168.75px;
+  height: 61px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.planFrame3Li1 {
+  /* Frame 1 */
+
+  /* Auto layout */
+  /* display: flex; */
+  list-style: circle;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 168.75px;
+  height: 15px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.planFrame3Li1content {
+  /* Free access to video class */
+
+  width: 154px;
+  height: 15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.planFrame3Li2 {
+  /* Frame 2 */
+
+  /* Auto layout */
+  /* display: flex; */
+  list-style: circle;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 168.75px;
+  height: 15px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.planFrame3Li2content {
+  /* Free access to video class */
+
+  width: 154px;
+  height: 15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.planFrame3Li3 {
+  /* Frame 3 */
+
+  /* Auto layout */
+  /* display: flex; */
+  list-style: circle;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 168.75px;
+  height: 15px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.planFrame3Li3content {
+  /* Free access to video class */
+
+  width: 154px;
+  height: 15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.planFrameBtn {
+  /* Frame 17 */
+
+  box-sizing: border-box;
+
+  width: 149px;
+  height: 44px;
+
+  /* Ghost */
+  border: 0.5px solid #7a3199;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.planframeBtnText {
+  /* position: absolute; */
+  width: 86px;
+  height: 18px;
+  /* left: 31px;
+top: 14px; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #7a3199 !important;
+}
+
+
+.plancard2{
+    background-color: #7a3199;
+    color:white !important;
+      /* Plan */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 27px;
+  gap: 24px;
+  /* position: absolute; */
+  width: 303px;
+  height: 357px;
+  left: 175px;
+  top: 296px;
+  border-radius: 10px;
+}
+
+.planFrame2Btn {
+    /* Frame 17 */
+  
+    box-sizing: border-box;
+    background-color: white;
+    width: 149px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  }
+  
+  .planframe2BtnText {
+    width: 86px;
+    height: 18px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7a3199 !important;
+  }
+
+  .plancard2Money {
+    /* $ 54 */
+  
+    width: 71px;
+    height: 39px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+  
+    /* Ghost */
+    color: white;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .plancard2PerMonth {
+    /* /month */
+  
+    width: 54px;
+    height: 21px;
+  
+    /* text/14/light */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+  
+    /* Ghost */
+    color: white;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .plancard2 .planFrame1Heading{
+    width: 110px;
+  }
+  
+  .plancard2 .planFrame1Heading,
+  .plancard2 .planFrame1content,
+  .plancard2 .planFrame3Li1,
+  .plancard2 .planFrame3Li1content,
+  .plancard2 .planFrame3Li2,
+  .plancard2 .planFrame3Li2content,
+  .plancard2 .planFrame3Li3content{
+    color: white;
+    
+  }
+
+
+
